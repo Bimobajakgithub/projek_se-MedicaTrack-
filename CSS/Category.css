@@ -1,0 +1,119 @@
+/* Main Content */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-color: #E3F2FD;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.product-card {
+    width: 259px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #333;
+    margin: 15px 0 5px;
+}
+
+.product-card p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #666;
+    margin: 0 0 15px;
+}
+
+.product-card .add-to-cart {
+    width: 100px;
+    height: 35px;
+    background: #3F72AF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.product-card .add-to-cart:hover {
+    background: #355a8a;
+}
+
+/* Search Bar */
+.search-bar {
+    width: 100%;
+    padding: 20px;
+    background-color: #E3F2FD;
+}
+
+.search-bar input {
+    width: 500px;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.search-bar input::placeholder {
+    color: #999;
+}
+
+.cart-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.cart-summary p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+}
+
+.view-cart {
+    width: 150px;
+    height: 40px;
+    background: #3F72AF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.view-cart:hover {
+    background: #355a8a;
+}

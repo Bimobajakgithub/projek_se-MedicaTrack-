@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedicaTrack - Janji Temu</title>
+    <link rel="stylesheet" href="/CSS/navbar.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/Janjitemu.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/Picture/Logo.png" alt="MedicaTrack Logo" class="LOGOGUE">
+                <a href="Homepage.html"><h1>MedicaTrack</h1></a>
+                <a href="Homepage.html" class="Beranda">Beranda</a>
+                <a href="Artikel.html" class="Artikel">Artikel</a>
+                <a href="Riwayat.html" class="Riwayat">Riwayat</a>
+            </div>
+            <div class="navdiv">
+                <a href="Login.html" class="Loginbutton">Login</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="janjitemu-section">
+            <h2 class="janji-temu">Janji Temu</h2>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Cari dokter, atau rumah sakit" onkeyup="searchFunction()">
+            </div>
+            <div class="popular-search">
+                <span>Pencarian Terpopuler: <a href="#">Rumah Sakit Indovist</a>, <a href="#">Doctor Luna</a></span>
+            </div>
+            <div class="easy-appointment">
+                <h3>Buat Janji Mudah</h3>
+                <div class="steps">
+                    <div class="step">
+                        <img src="../Picture/antre-removebg-preview.png" alt="Dokter">
+                        <p>Tersedia dokter dari berbagai bidang</p>
+                    </div>
+                    <div class="step">
+                        <img src="../Picture/administrasi-removebg-preview.png" alt="Antre">
+                        <p>Antre & daftar ulang</p>
+                    </div>
+                    <div class="step">
+                        <img src="../Picture/rs1-removebg-preview.png" alt="Jadwal">
+                        <p>Jadwal rumah sakit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="doctor-selection">
+                <h3 class="pilihrs">Pilih RS di MedicaTrack</h3>
+                <div class="hospitals" id="hospital-results">
+                    <!-- These are the initial hard-coded hospital cards -->
+                    <div class="hospital-card">
+                        <img src="../Picture/rs6-removebg-preview.png" alt="Rumah Sakit Islam Negeri">
+                        <div>
+                            <p>Rumah Sakit Islam Negeri</p>
+                            <p>Tangerang</p>
+                        </div>
+                    </div>
+                    <div class="hospital-card">
+                        <img src="../Picture/rs7-removebg-preview.png" alt="Rumah Sakit Mitra Keluarga">
+                        <div>
+                            <p>Rumah Sakit Mitra Keluarga</p>
+                            <p>Bekasi</p>
+                        </div>
+                    </div>
+                    <div class="hospital-card">
+                        <img src="../Picture/rs3-removebg-preview.png" alt="Rumah Sakit Muhammad Ihram">
+                        <div>
+                            <p>Rumah Sakit Muhammad Ihram</p>
+                            <p>Bogor</p>
+                        </div>
+                    </div>
+                    <div class="hospital-card">
+                        <img src="../Picture/rs2-removebg-preview.png" alt="Rumah Sakit Muhammad Abdul">
+                        <div>
+                            <p>Rumah Sakit Muhammad Abdul</p>
+                            <p>Papua</p>
+                        </div>
+                    </div>
+                    <div class="hospital-card">
+                        <img src="../Picture/rs4-removebg-preview.png" alt="Rumah Sakit Muhammad Luthfi">
+                        <div>
+                            <p>Rumah Sakit Muhammad Luthfi</p>
+                            <p>Mataram</p>
+                        </div>
+                    </div>
+                    <div class="hospital-card">
+                        <img src="../Picture/rs5-removebg-preview.png" alt="Rumah Sakit Muhammad Rava">
+                        <div>
+                            <p>Rumah Sakit Muhammad Rava</p>
+                            <p>Sunda</p>
+                        </div>
+                    </div>
+                    <div class="hospital-card">
+                        <img src="../Picture/rs1-removebg-preview.png" alt="Rumah Sakit Fadhil Athalah">
+                        <div>
+                            <p>Rumah Sakit Fadhil Athalah</p>
+                            <p>Jakarta</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; MedicaTrack, 2024, All Right Reserved</p>
+            <div class="footer-tpc">
+                <a href="#">Term Of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+    <script src="../JS/Janjitemu.js"></script>
+</body>
+</html>

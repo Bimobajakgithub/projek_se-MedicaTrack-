@@ -1,0 +1,31 @@
+.footer {
+    background-color: #4285f4;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.footer-tpc {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add some space between the links */
+}
+
+.footer-tpc a {
+    color: white;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.footer-tpc a:hover {
+    text-decoration: underline;
+}

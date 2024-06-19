@@ -1,0 +1,103 @@
+.janjitemu-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.pilihrs{
+    color: white;
+}
+
+.janji-temu{
+    color: white;
+}
+
+
+.search-container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.popular-search {
+    margin: 20px 0;
+}
+
+.popular-search a {
+    color: #2e5ba7;
+    text-decoration: none;
+}
+
+.easy-appointment {
+    background-color: #ADCAFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+.easy-appointment h3 {
+    margin-top: 0;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step {
+    text-align: center;
+}
+
+.step img {
+    width: 50px;
+    height: 50px;
+}
+
+.doctor-selection {
+    margin: 40px 0;
+}
+
+.hospitals {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+.hospital-card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    transition: box-shadow 0.3s;
+}
+
+.hospital-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hospital-card img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.hospital-card p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+#search-input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

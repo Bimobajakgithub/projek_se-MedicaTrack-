@@ -1,0 +1,137 @@
+.searchbar{
+    display: flex;
+    justify-content: center;
+}
+
+.containersearch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sbar{
+    margin-top: 10%;
+    width: 75%;
+    height: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 5px 10px;
+    background-color: white;
+    
+}
+
+.sbar p{
+    margin: 0;
+}
+
+.sbar img{
+    width: 20px;
+}
+
+.sbar input{
+    width: 84%;
+    background-color: transparent;
+    border: 0;
+    flex: 1;
+    outline: none;
+}
+
+
+.containertopik{
+    display: flex;
+    color: white;
+    margin-left: 100px;
+    flex-direction: column;
+}
+
+.topik-terkini{
+    text-align: justify;
+    justify-content: left;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.button-topik{
+    display: flex;
+    text-decoration: none;
+}
+
+.diet{
+    margin: 30px;
+    padding: 10px 50px;
+    font-size: 30px;
+}
+
+.ketombe{
+    margin: 30px;
+    padding: 10px 50px;
+    font-size: 30px;
+}
+
+.container-artikel{
+    display: flex;
+    color: white;
+}
+
+
+.gambar-artikel{
+    margin-left: 90px;
+}
+
+.Artikel-populer{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+
+
+.imgartik{
+    margin-left: 80px;
+}
+
+.deskripsi{
+    margin-left: 80px;
+    background-color: #7499DD;
+    margin-top: auto;
+}
+
+.artikel-baris {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+    height: 500px; 
+    overflow-y: auto; 
+    padding-right: 100px; 
+    scrollbar-width: thin; 
+
+}
+
+.artikel-baris::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.artikel-baris::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 4px; 
+}
+
+.artikel-baris::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+}
+
+.imgartik1{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.deskripsi1{
+    font-size: 10%;
+    background-color: #7499DD;
+}

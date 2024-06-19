@@ -1,0 +1,236 @@
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.containersearch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sbar{
+    margin-top: 10%;
+    width: 75%;
+    height: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 5px 10px;
+    background-color: white;
+    
+}
+
+.sbar p{
+    margin: 0;
+}
+
+.sbar img{
+    width: 20px;
+}
+
+.sbar input{
+    width: 84%;
+    background-color: transparent;
+    border: 0;
+    flex: 1;
+    outline: none;
+}
+
+.stitle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.stitle p{
+    margin-top: 0;
+}
+.sbar::placeholder{
+    padding: 5%;
+}
+
+.spum{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.Spesialis{
+    background-color: white;
+    margin: 100px;
+    padding: 8px 50px;
+    border-color: black;
+    font-size: 24px;
+    border-style: solid;
+}
+
+.Umum{
+    background: white;
+    margin: 100px;
+    padding: 8px 50px;
+    border-color: black;
+    font-size: 24px;
+    border-style: solid;
+}
+
+.container-drpopuler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drpopuler{
+    display: flex;
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-color: white;
+}
+
+.dr1{
+    display: flex;
+    margin: 100px;
+}
+
+.dr{
+    width: 50px;
+    height: 70px;
+}
+
+.jempol{
+    width: 10px;
+    height: 10px;
+    
+}
+
+.rapihinteks{
+    display: flex;
+    flex-direction: column;
+}
+
+.dr2{
+    display: flex;
+    margin: 100px;
+}
+
+.tombol-rate{
+    display: flex;
+    font-size: 10px;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.tombol-rate button{
+    background-color: gray;
+}
+
+.NamaDokter{
+    color: white;
+    display: flex;
+    margin: 0;
+}
+
+.JenisDokter{
+    color: white;
+    display: flex;
+    margin: 0;
+}
+
+.tombol-chat{
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    align-self: flex-end;
+    background-color: red;
+
+}
+
+.container-KesehatanMental{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.JenisKesehatanMental1{
+    display: flex;
+    color: black;
+    font-weight: bold;
+}
+
+.Stress{
+    padding: 8px 60px;
+    font-size: 30px;
+    border: 1px;
+    background-color: white;
+    border-style: solid;
+    margin: 20px;
+
+}
+
+.Kecemasan{
+    padding: 8px 60px;
+    font-size: 30px;
+    border: 1px;
+    background-color: white;
+    border-style: solid;
+    margin: 20px;
+
+}
+
+.Adiksi{
+    padding: 8px 60px;
+    font-size: 30px;
+    border: 1px;
+    background-color: white;
+    border-style: solid;
+    margin: 20px;
+}
+.Trauma{
+    padding: 8px 60px;
+    font-size: 30px;
+    border: 1px;
+    background-color: white;
+    border-style: solid;
+    margin: 20px;
+}
+
+.JenisKesehatanMental2{
+    display: flex;
+    color: black;
+    font-weight: bold;
+}
+
+.PengembanganDiri{
+    padding: 8px 60px;
+    font-size: 20px;
+    border: 1px;
+    background-color: white;
+    border-style: solid;
+    margin: 20px;
+}
+
+.Pekerjaan{
+    padding: 8px 60px;
+    font-size: 30px;
+    border: 1px;
+    background-color: white;
+    border-style: solid;
+    margin: 20px;
+}
+
+.Depresi{
+    padding: 8px 60px;
+    font-size: 30px;
+    border: 1px;
+    background-color: white;
+    border-style: solid;
+    margin: 20px;
+}

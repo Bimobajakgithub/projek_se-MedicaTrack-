@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    background-color: #3F72AF;
+}
+
+header {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 20px;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+  }
+  
+  
+  .logo img{
+    width: 100px;
+  }
+  
+  .Beranda{
+    font-size: 20px;
+  }
+  
+  .Artikel{
+    font-size: 20px;
+  }
+  
+  .Riwayat{
+    font-size: 20px;
+  }
+  
+  .navbar{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navdiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+  }
+  
+  
+  .Loginbutton{
+    padding: 8px 40px;
+    background-color: #3dc35e;
+    font-size : 20px;
+    font-family: 'Segoe UI';
+    border-radius: 24px;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  
+  .Login-button{
+    text-align: right;
+  }
+  

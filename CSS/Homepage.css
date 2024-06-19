@@ -1,0 +1,119 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #d6e9f8;
+  color: #333;
+}
+
+
+.slogan-services{
+  display: flex;
+  justify-content: space-between;
+}
+
+.slogan-service{
+  background-color: white;  
+  width: 15%;
+  height: 50%;
+  margin: 10px 10%;
+  border-radius: 30px;
+}
+
+.sloganimg{
+  width: auto;
+  height: 100px;
+
+}
+
+.container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.slogan {
+  padding: 20px;
+  text-align: center;
+  background-image: url(../Picture/background\ dokter\ homepage.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services-section {
+  background-color: #e0f7fa;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.services, .doctors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service, .doctor {
+  width: 25%;
+  margin: 20px;
+  text-align: center;
+}
+
+.service img, .doctor img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+
+
+.services{
+  padding-left: 20px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  background-color: #7499DD;
+  color: white;
+}
+
+.health-services h2{
+  background-color: #7499DD;
+  margin:0;
+  padding-top: 20px;
+  padding-left: 40px;
+  font-weight: bold;
+  color: white;
+}
+.popular-doctors {
+  margin-top: 0;
+  color: white;
+  background-color: #7499DD;
+}
+
+.popular-doctors h2{
+  margin:0;
+  padding-left: 40px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  margin: 10px;
+}
+
+footer nav {
+  margin: 10px;
+}
+
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+
+footer nav a:hover {
+  color: #ccc;
+}
